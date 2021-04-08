@@ -1,0 +1,14 @@
+input {
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: rgb(178, 122, 206);
+  border-radius: 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#form-output {
+  display: none;
+}
