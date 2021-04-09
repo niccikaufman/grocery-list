@@ -10,8 +10,9 @@ $(document).ready(function(){
     //clear input field
     typedValueElement.value = '';
     let text = "";
-    //append array elements to a list
+    //append array elements to a list and sort alphabetically
     for (let i = 0; i < typedValueArray.length; i++) {
+      typedValueArray.sort();
       text += "<li>" + typedValueArray[i] + "</li>";
       }
     document.getElementById("form-output").innerHTML = text;
